@@ -5,7 +5,7 @@ h1 {
     font-size: 40px;
 }
 h2 {
-    font-size: 30px;
+    font-size: 20px;
 }
 .flexible {
     display: flex;
@@ -19,6 +19,9 @@ h2 {
     border-left: 7px solid;
     border-color: purple;
     padding-left: 2%;
+}
+.stay-focused-head h1 {
+    font-size: 50px;
 }
 .royalblue-color {
     color: royalblue;
@@ -49,12 +52,12 @@ h2 {
 }
 .one-third-width {
     width: 33%;
-    padding: 5px;
 }
 .mission-box {
     background-color: lightskyblue;
     border-radius: 20px;
-    padding: 2%;
+    padding-left:  2%;
+    padding-right: 2%;
     margin-left: 5%;
 }
 .mission-box img {
@@ -63,9 +66,10 @@ h2 {
 .vision-box {
     background-color: lightpink;
     border-radius: 20px;
-    padding: 2%;
-    margin-left: 5%;
-    margin-right: 5%;
+    padding-left:  2%;
+    padding-right: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 .vision-box img {
     width: 50%;
@@ -73,7 +77,8 @@ h2 {
 .goals-box {
     background-color: lightslategray;
     border-radius: 20px;
-    padding: 2%;
+    padding-left:  2%;
+    padding-right: 2%;
     margin-right: 5%;
 }
 .goals-box img {
