@@ -15,9 +15,13 @@ h2 {
     padding-right: 5%;
 }
 .stay-focused-head {
+    font-family: 'Righteous', cursive;
     border-left: 7px solid;
     border-color: purple;
     padding-left: 2%;
+}
+.royalblue-color {
+    color: royalblue;
 }
 .half-width {
     width: 50%;
@@ -25,9 +29,6 @@ h2 {
 }
 .half-width img {
     width: 100%;
-}
-.royalblue-color {
-    color: royalblue;
 }
 .link-button {
     text-decoration: none;
@@ -47,7 +48,7 @@ h2 {
     color: coral;
 }
 .one-third-width {
-    width: 30%;
+    width: 33%;
     padding: 5px;
 }
 .mission-box {
@@ -111,4 +112,7 @@ footer {
     text-align: center;
     color: white;
     background-color: black;
+}
+footer h1 {
+    font-family: 'Lobster', cursive;
 }
