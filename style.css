@@ -4,34 +4,38 @@ body {
 h1 {
     font-size: 40px;
 }
-.royalblue-color {
-    color: royalblue;
+h2 {
+    font-size: 30px;
 }
 .flexible {
     display: flex;
 }
+.stay-focused {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.stay-focused-head {
+    border-left: 7px solid;
+    border-color: purple;
+    padding-left: 2%;
+}
 .half-width {
     width: 50%;
-    padding-left: 5%;
+    padding: 5%;
 }
 .half-width img {
-    width: 80%;
+    width: 100%;
+}
+.royalblue-color {
+    color: royalblue;
 }
 .link-button {
     text-decoration: none;
     color: white;
-    background-color: coral;
-    font-weight: 700;
+    background-color: purple;
+    font-weight: bold;
     padding: 5px 30px;
     border-radius: 5px;
-}
-.stay-focused {
-    padding: 40px;
-}
-#stay-focused-head {
-    border-left: 7px solid;
-    border-color: coral;
-    padding-left: 2%;
 }
 .center {
     text-align: center;
@@ -52,6 +56,9 @@ h1 {
     padding: 2%;
     margin-left: 5%;
 }
+.mission-box img {
+    width: 50%;
+}
 .vision-box {
     background-color: lightpink;
     border-radius: 20px;
@@ -59,18 +66,49 @@ h1 {
     margin-left: 5%;
     margin-right: 5%;
 }
+.vision-box img {
+    width: 50%;
+}
 .goals-box {
     background-color: lightslategray;
     border-radius: 20px;
     padding: 2%;
     margin-right: 5%;
 }
-.mission-box img {
-    width: 50%;
-}
-.vision-box img {
-    width: 50%;
-}
 .goals-box img {
     width: 50%;
+}
+.develop {
+    padding: 5%;
+    background-size: 250px;
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.less-width {
+    width: 40%;
+    padding: 2%;
+}
+.less-width img {
+    width: 100%;
+    border-radius: 20px;
+}
+.more-width {
+    width: 60%;
+    padding: 2%;
+}
+.community {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    background-size: 250px;
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+footer {
+    padding: 5px;
+    text-align: center;
+    color: white;
+    background-color: black;
 }
