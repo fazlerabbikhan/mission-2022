@@ -1,0 +1,76 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    font-size: 40px;
+}
+.royalblue-color {
+    color: royalblue;
+}
+.flexible {
+    display: flex;
+}
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img {
+    width: 80%;
+}
+.link-button {
+    text-decoration: none;
+    color: white;
+    background-color: coral;
+    font-weight: 700;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+.stay-focused {
+    padding: 40px;
+}
+#stay-focused-head {
+    border-left: 7px solid;
+    border-color: coral;
+    padding-left: 2%;
+}
+.center {
+    text-align: center;
+}
+.navy-color {
+    color: navy;
+}
+.coral-color {
+    color: coral;
+}
+.one-third-width {
+    width: 30%;
+    padding: 5px;
+}
+.mission-box {
+    background-color: lightskyblue;
+    border-radius: 20px;
+    padding: 2%;
+    margin-left: 5%;
+}
+.vision-box {
+    background-color: lightpink;
+    border-radius: 20px;
+    padding: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.goals-box {
+    background-color: lightslategray;
+    border-radius: 20px;
+    padding: 2%;
+    margin-right: 5%;
+}
+.mission-box img {
+    width: 50%;
+}
+.vision-box img {
+    width: 50%;
+}
+.goals-box img {
+    width: 50%;
+}
